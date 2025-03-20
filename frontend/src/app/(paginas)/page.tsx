@@ -1,7 +1,6 @@
-import Image from "next/image";
+import Cabecalho from "../components/shared/Cabecalho"
+import Container from "../components/shared/Container"
 
 export default function Home() {
-  return (
-    <div> Inicio    </div>
-  );
+	return <Cabecalho />
 }
